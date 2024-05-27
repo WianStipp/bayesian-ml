@@ -11,6 +11,7 @@ python = "^3.10"
 torch = "^2.3.0"
 matplotlib = "^3.9.0"
 numpy = "^1.26.4"
+notebook = "^7.2.0"
 
 
 [build-system]
