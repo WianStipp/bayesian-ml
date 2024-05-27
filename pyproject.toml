@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bayesian-ml"
+version = "0.1.0"
+description = ""
+authors = ["Wian Stipp <stippwian@gmail.com>"]
+readme = "README.md"
+packages = [{include = "bayesian_ml"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.3.0"
+matplotlib = "^3.9.0"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
